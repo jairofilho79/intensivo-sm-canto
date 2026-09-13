@@ -2,7 +2,7 @@
 
 Aulas de canto de 20 minutos (teoria rápida + muita prática) para um grupo pequeno de iniciantes que cantam na igreja. Cada aula é uma página estática que o aluno abre no celular durante a aula e durante o treino da semana.
 
-- **Páginas dos alunos:** `index.html` e `aula-NN-*.html` (GitHub Pages).
+- **Páginas dos alunos (GitHub Pages):** https://jairofilho79.github.io/intensivo-sm-canto/
 - **Ementa completa** (básico, intermediário, avançado): [`ementa-intensivo.md`](ementa-intensivo.md).
 - **Diário de desenvolvimento:** [`PROGRESSO.md`](PROGRESSO.md).
 
