@@ -11,17 +11,17 @@
 
 | Minuto | Bloco | O que acontece |
 |---|---|---|
-| 00–02 | **Retomada** | Um aluno mostra a tarefa da semana. O professor ouve, corrige uma coisa só. |
+| 00–02 | **Retomada** | Quem ouviu a própria gravação diz o que notou; todos refazem 1 exercício da semana. O professor corrige uma coisa só. |
 | 02–05 | **Uma ideia** | A teoria da aula em uma frase + uma imagem simples. Nada além disso. |
 | 05–16 | **Prática** | 2 ou 3 exercícios, cada um com *como fazer / o que sentir / erro comum*. |
 | 16–19 | **No hino** | O exercício aplicado a UMA frase de um hino da coletânea. |
-| 19–20 | **Tarefa** | Rotina da semana (10–15 min/dia) + o que gravar no celular. |
+| 19–20 | **Tarefa** | Rotina da semana (10–15 min/dia) + o que gravar para se ouvir. |
 
 ### Regras que valem para todas as aulas
 
 1. **Dor ou arranhado = pare.** Nenhum exercício aqui deve doer. Se doeu, foi feito com força demais.
 2. **Volume médio.** Iniciante aprende em volume de conversa. Volume vem depois, sozinho, quando a técnica está certa.
-3. **Grave sempre.** O ouvido de quem canta não ouve direito enquanto canta. O celular ouve.
+3. **Gravar é para se ouvir.** O ouvido de quem canta não ouve direito enquanto canta; o celular ouve. A gravação é do aluno, para ouvir com calma no dia seguinte e perceber o que muda de uma semana para a outra. **Ninguém envia gravação ao professor**; a página só sugere, de forma discreta, o que vale gravar.
 4. **10–15 minutos por dia, 5 dias por semana** valem mais que 1 hora no domingo. A voz é músculo: repetição curta e frequente.
 5. **Homens e mulheres cantam em oitavas diferentes** e está tudo certo. "Afinado" é a mesma nota, na oitava que cabe na sua voz.
 6. Cada aula tem um **"sinal de que passou"**. Se o grupo não passou, a aula seguinte repete a anterior. Não há pressa: a trilha é longa de propósito.
@@ -34,7 +34,7 @@ Uso hinos tradicionais conhecidos (*Tal Qual Estou*, *Castelo Forte*, *Rude Cruz
 
 - Celular com **afinador** (qualquer app "tuner" gratuito) e **metrônomo** (qualquer app). Os nomes de nota neste documento seguem o app: **Dó4 = Dó central**.
 - Um teclado, app de piano ou o próprio afinador para dar a nota de referência.
-- Um **canudo** comum por aluno (a partir da aula 3).
+- Um **canudo** comum (opcional, a partir da aula 3): substitui a vibração de lábios para quem não consegue fazê-la.
 - Cópia impressa de um hino da coletânea **com partitura** (a partir da aula 9).
 
 ### Sobre a aula 2 já escrita em HTML (`aula-02-fluxo-de-ar.html`)
@@ -79,10 +79,11 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
    - *O que sentir:* peso igual nos dois pés, pescoço livre.
    - *Erro comum:* estufar o peito "de soldado" — isso trava as costelas.
 
-2. **Deitado com um livro** *(3 min — cada aluno faz uma vez; em grupo, os outros observam)*
-   - Deitar de costas, livro na barriga. Inspirar pelo nariz: o livro **sobe**. Soltar pela boca: o livro **desce**.
-   - *O que sentir:* a barriga e as costelas laterais se abrindo; ombros parados no chão.
-   - *Erro comum:* forçar a barriga para fora com o músculo em vez de deixar o ar entrar. A barriga sobe porque o ar entra, não o contrário.
+2. **Uma mão no peito, outra na barriga** *(3 min)*
+   - Em pé ou sentado na ponta da cadeira. Inspirar pelo nariz devagar: a mão da barriga **se afasta** primeiro; a do peito quase não se mexe. Soltar pela boca: a barriga volta. 6 vezes.
+   - Depois o errado **de propósito**: respirar "por cima" — só a mão do peito sobe, o ombro sobe junto. Duas vezes, para reconhecer. Voltar ao certo, 6 vezes.
+   - *O que sentir:* por cima entra pouco ar e o pescoço aperta; por baixo entra muito e a garganta fica solta. É essa diferença que o aluno leva para casa.
+   - *Erro comum:* forçar a barriga para fora com o músculo. A barriga sobe porque o ar entra, não o contrário. Quem não sente pode deitar um minuto: deitado, o corpo respira por baixo quase sozinho.
 
 3. **Mãos nas costelas, em pé** *(3 min)*
    - Mãos nas costelas laterais, dedos apontando para a frente. Inspirar pelo nariz em 4 tempos: as mãos se afastam. Soltar em "F" em 4 tempos.
@@ -100,10 +101,10 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 **No hino (3 min):** *Castelo Forte*, primeira frase. Cantar só falado, no ritmo, com uma inspiração pelo nariz em 4 tempos antes e a mão nas costelas. Perguntar: o ombro subiu? Onde faltou ar?
 
 **Tarefa da semana (10 min/dia):**
-- Deitado com livro: 10 respirações (2 min).
+- Mão no peito, mão na barriga: 10 respirações, mão do peito quieta (2 min).
 - Em pé, mãos nas costelas: 4 dentro / 8 fora, 5 vezes (2 min).
 - "S" cronometrado: 5 tentativas, anotar o melhor "S" parelho de cada dia (4 min).
-- Gravar no dia 5 um "S" e trazer o número.
+- Para se ouvir: no fim da semana, gravar um "S" e a frase do hino falada; ouvir no dia seguinte.
 
 **Sinal de que passou:** "S" parelho ≥ 12 s, ombro não sobe, e o aluno sabe dizer onde o ar entra.
 
@@ -115,7 +116,7 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **Objetivo:** transformar o ar em som sem desperdiçar (voz soprosa) e sem apertar (voz tensa); começar cada nota limpa, sem "golpe" e sem "h".
 
-**Uma ideia (3 min):** as pregas vocais são duas portinhas na garganta. **Abertas demais**, sai ar junto com o som — voz soprosa, cansa e resseca. **Apertadas demais**, o som sai espremido — voz tensa, machuca. No meio está a **voz equilibrada**: quase todo o ar vira som. *Imagem:* uma mangueira. Aberta demais só molha o chão; apertada demais esguicha e dói na mão; no meio, o jato certo.
+**Uma ideia (3 min):** as pregas vocais são duas portinhas na garganta. **Abertas demais**, sai ar junto com o som — voz soprosa, cansa e resseca. **Apertadas demais**, o som sai espremido — voz tensa, machuca. No meio está a **voz equilibrada** (firme): quase todo o ar vira som. Dois sons mostram os dois lados: o **"hhhaaa"** suspirado escancara a fenda (soproso); o **"mmmm"** de cócegas nos lábios fecha a fenda na medida (firme). *Imagem:* uma mangueira. Aberta demais só molha o chão; apertada demais esguicha e dói na mão; no meio, o jato certo.
 
 **Apostila-mãe:** Módulo 4 (modos de fonação) e Módulo 2, aula 10 (início e término do som).
 
@@ -129,12 +130,15 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
    - *O que sentir:* no "Z", vibração nos dentes e nos lábios, com o mesmo fio de ar do "S".
    - *Erro comum:* fazer o "Z" mais forte que o "S". Mesma força; só acrescenta a voz.
 
-3. **A mão na frente da boca: soproso → equilibrado** *(4 min)*
-   - Palma da mão a 5 cm da boca. Suspirar um "há" só com ar — a mão sente vento.
-   - Repetir "há" com uma nota confortável, e a cada repetição diminuir o vento na mão sem apertar a garganta. Em 4 ou 5 repetições, a mão quase não sente vento e o som fica mais claro.
-   - Agora no sentido contrário: cantar "a" e **apertar de propósito** a garganta por 2 segundos (som espremido, como quem levanta peso). Soltar. Sentir a diferença. Esse é o modo tenso — o que **não** queremos.
-   - *O que sentir:* equilibrado = som cheio com pouco esforço, garganta solta, pouco vento. Tenso = pescoço duro, som pequeno e apertado.
-   - *Erro comum:* trocar "menos vento" por "mais força". Menos vento vem de fechar a fenda, não de empurrar ar.
+3. **"Hhhaaa" × "Mmmm": soproso de propósito, firme de propósito** *(4 min)*
+   - Palma da mão a 5 cm da boca. Suspirar um **"hhhaaa"** numa nota confortável, deixando sair muito ar: a mão sente vento. Soproso, de propósito.
+   - Na mesma nota, **"mmmm"**: lábios juntos, dentes separados, até sentir cócegas nos lábios. Quase nenhum vento na mão — a voz firmou sozinha.
+   - Sem parar o som, abrir para **"mmmaaa"**: o "a" nasce firme.
+   - Alternar "hhhaaa" → "mmmaaa" 4 vezes em 3 notas, sentindo a diferença na mão e na garganta.
+   - Por fim, o modo **tenso** para reconhecer: "a" apertando a garganta 2 s, como quem levanta peso. Soltar. Firme não é isso.
+   - *O que sentir:* soproso = vento, som fosco, ar acaba rápido; firme = cócegas nos lábios, som cheio com pouco esforço, garganta solta; tenso = pescoço duro, som pequeno.
+   - *Erro comum:* "firmar" apertando. Firme vem do "m" — a fenda fecha na medida, sem força. Se o pescoço endureceu, voltar ao "mmmm" leve.
+   - *As duas alavancas:* voz soprosa → "mmmm" antes da nota; voz apertada → "hhhaaa" leve para soltar, e depois o "m" firma de novo.
 
 4. **O início do som (ataque)** *(3 min)*
    - Três jeitos de começar a nota "a":
@@ -149,56 +153,70 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **Tarefa da semana (10 min/dia):**
 - "S" e "Z" cronometrados, 3 vezes cada, anotar (3 min).
-- "há" → "a" tirando o vento, 5 rodadas em 3 notas diferentes (3 min).
+- "hhhaaa" → "mmmaaa", 5 rodadas em 3 notas, mão na frente da boca: o vento some no "m" (3 min).
 - "ma-ma-ma-ma-ma" em 5 notas confortáveis, começo limpo (2 min).
-- Primeira frase de *Tal Qual Estou* com a mão na boca (2 min). Gravar no dia 5.
+- Primeira frase de *Tal Qual Estou* com a mão na boca (2 min).
+- Para se ouvir: no fim da semana, gravar "S" e "Z", um "hhhaaa → mmmaaa" e a frase do hino; ouvir no dia seguinte.
 
 **Sinal de que passou:** "Z" dura pelo menos 80% do "S"; "a" sustentado 8 s sem sopro audível e sem golpe no começo.
 
 ---
 
-### Aula 3 — Vibração de lábios, canudo e "M": o aquecimento que cabe no bolso
+### Aula 3 — Aquecimento completo: corpo, ar, voz e espaço
 
-**Objetivo:** aprender os três exercícios mais seguros e eficientes que existem (trato vocal semi-ocluído), que serão o aquecimento diário de agora em diante, e descobrir a região confortável da própria voz.
+**Objetivo:** montar o aquecimento de 10 minutos que o aluno fará todo dia e antes de todo ensaio e culto: alongar o corpo, acordar o ar, acordar a voz com a saída meio fechada (trato vocal semi-ocluído) e abrir espaço dentro da boca.
 
-**Uma ideia (3 min):** quando a saída da boca fica meio fechada (lábios vibrando, canudo, "m"), parte do som volta para dentro e as pregas vocais vibram com **menos esforço**. É o jeito mais seguro de aquecer, de subir para o agudo e de descansar a voz depois do culto. *Imagem:* é mais fácil andar de bicicleta com uma mão leve no guidão do que sem as mãos.
+**Uma ideia (2 min):** a voz é músculo; ninguém corre 100 m frio. O aquecimento tem quatro camadas, nesta ordem: **corpo** solto, **ar** constante (aulas 1–2), **voz** acordada com "brrr" e "mmm" (as pregas vibram com menos esforço) e **espaço** aberto por dentro (palato mole alto, garganta larga, laringe baixa). *Imagem:* abrir a casa antes de a visita chegar — janelas, ventilação, luz e espaço na sala.
 
-**Apostila-mãe:** Módulo 7 (trato vocal semi-ocluído, tubo/laxvox) e Módulo 2 (fluxo).
+**Apostila-mãe:** Módulo 7 (aquecimento, trato vocal semi-ocluído) e Módulo 2 (fluxo).
 
-**Prática**
+**Prática — o aquecimento inteiro, 4 blocos de 3 min** *(12 min)*
 
-1. **Vibração de lábios (lip trill)** *(4 min)*
-   - Lábios soltos, soprar fazendo "brrr" como motor de carro. Primeiro só com ar, depois com uma nota.
-   - Se não sai: apoiar os dedos indicadores nas bochechas, levantando um pouco os cantos da boca. Se ainda não sai, use o canudo (abaixo) — dá o mesmo resultado.
-   - Manter 8 segundos numa nota. Depois **sirene**: deslizar de uma nota grave a uma aguda e voltar, devagar, sem parar a vibração.
-   - *O que sentir:* lábios formigando, garganta solta, o som "andando" fácil para o agudo.
-   - *Erro comum:* ar demais (os lábios param) ou lábios apertados (trava). Ajuste até ficar fácil — o ponto certo é o de menos esforço.
+1. **Corpo** *(3 min)*
+   - Postura: pés no chão na largura do quadril, peso igual, joelhos destravados, coluna longa, ombros caídos (aula 1). 20 s.
+   - Pescoço: queixo ao peito; orelha a cada ombro; olhar por cima de cada ombro. Devagar, 2 respirações em cada. Sem jogar a cabeça para trás.
+   - Ombros: rolar 5× para trás; subir até as orelhas, segurar 3 s, soltar de uma vez, 3×.
+   - Costelas: braços esticados para cima, inspirar; inclinar o tronco com os braços para um lado soltando em "F"; voltar inspirando; outro lado. 3× cada lado.
+   - *O que sentir:* pescoço e ombros leves; na inclinação, as costelas do lado de cima abrindo.
+   - *Erro comum:* alongar com força ou balançando. Lento e sem dor.
 
-2. **Canudo** *(3 min)*
-   - Canudo comum na boca, lábios fechados em volta, ar saindo **só pelo canudo** (nada pelo nariz — tampar o nariz para testar).
-   - Cantar uma nota confortável pelo canudo, 8 s. Depois sirenes, como no item 1. Depois a melodia da primeira frase de um hino, pelo canudo.
-   - *O que sentir:* pressão leve nos lábios e nas bochechas; a voz sai fácil no agudo.
-   - *Erro comum:* estufar as bochechas demais ou vazar ar pelo nariz.
+2. **Ar** *(3 min)*
+   - Mão nas costelas: "Sssss" longo e parelho, 2×; "Zzzzz" mesma força, 2×; "Shhhh" boca em bico, 2×. A barriga volta devagar nos três.
+   - Staccato: "s! s! s! s!" 8 pulsos curtos com a mão na barriga sentindo cada pulso; depois com voz, "ma! ma! ma! ma!" numa nota leve, 8 pulsos.
+   - *O que sentir:* fio constante nos longos; a barriga pulsa sozinha no staccato, como num risinho.
+   - *Erro comum:* puxar a barriga para dentro com força no staccato; espremer o fim dos longos.
 
-3. **"M" de zumbido** *(2 min)*
-   - Lábios juntos, dentes separados (língua descansando atrás dos dentes de baixo). "Mmmm" numa nota confortável.
-   - *O que sentir:* cócegas nos lábios e no nariz. Se não há cócegas, os dentes estão fechados ou a garganta está apertada.
+3. **Voz** *(3 min)*
+   - "Brrr" (vibração de lábios): só ar, depois com nota, 8 s. Sirene grave → agudo → grave sem parar a vibração, 5×.
+   - "Mmmm": lábios juntos, dentes separados, cócegas nos lábios. 5 notas confortáveis, 5 s cada. É o "m" que firma a voz (aula 2).
+   - "Mmmm → mmmá" em 3 notas: o "a" nasce firme.
+   - *O que sentir:* lábios formigando, garganta solta, som andando fácil para o agudo.
+   - *Erro comum:* no "brrr", ar demais (para) ou lábios apertados (trava); no "m", sem cócegas = dentes fechados ou garganta apertada.
+   - *Não sai o "brrr"?* Dedos indicadores nas bochechas levantando os cantos da boca. Se ainda não sai, um canudo comum faz o mesmo trabalho (ar só pelo canudo; as mesmas sirenes).
 
-4. **Achar a sua região confortável** *(2 min)*
-   - Sirene em lip trill de baixo para cima. Perguntar: onde ficou fácil? Onde começou a apertar? Marcar no teclado/app a nota **mais grave confortável** e a **mais aguda confortável** de cada aluno. Anotar. Essas notas vão crescer ao longo do curso; hoje elas só dizem por onde começar.
-   - *Erro comum:* forçar o agudo para "ir mais longe". O que vale é a nota fácil, não a última que sai.
+4. **Espaço** *(3 min)*
+   - **Bocejo** (palato mole): começar um bocejo de verdade — o céu da boca sobe, a garganta alarga. No meio dele, soltar um "aaah" descendo, como suspiro de sono. 4×.
+   - **Sopro "sapão"** (espaço na boca): encher as bochechas de ar como um sapo, lábios fechados, soltar o ar bem devagar por um furinho entre os lábios. Depois o mesmo com voz, numa nota, bochechas cheias o tempo todo. 4×.
+   - **"Espaguete"** (laringe): dois dedos de leve no gogó; sugar o ar pela boca em bico como quem puxa um espaguete comprido — a garganta abre e o gogó desce. Soltar um "aaah" mantendo esse espaço. 4×.
+   - *O que sentir:* garganta larga, céu da boca alto, gogó baixo e solto; o "a" sai mais redondo e cheio sem mais força.
+   - *Erro comum:* forçar o bocejo (aperta atrás da língua) ou empurrar o gogó para baixo com músculo. Com os dedos no gogó, conferir: ele não sobe quando canta.
 
-**No hino (3 min):** *Mais Perto Quero Estar*, primeira frase, em lip trill (ou canudo), depois em "m", depois com a letra. Notar como a letra sai mais fácil depois dos dois primeiros.
+**No hino (3 min):** *Mais Perto Quero Estar*, primeira frase, em "brrr", depois em "mmm", depois com a letra guardando o espaço do bocejo. Notar como a letra sai mais fácil depois dos dois primeiros — toda frase será estudada assim, do fechado para o aberto.
 
-**Tarefa da semana (10 min/dia) — esta é a rotina base, que vai crescer a cada aula:**
-1. Postura + 5 respirações com mão nas costelas (1 min).
-2. "S" e "Z" (1 min).
-3. Lip trill ou canudo: 4 notas longas + 6 sirenes (3 min).
-4. "M" zumbido em 5 notas (1 min).
-5. Uma frase de hino em lip trill → "m" → letra (3 min).
-6. Gravar no dia 5: uma sirene em lip trill e a frase com letra.
+**Tarefa da semana (10 min/dia, e antes de todo ensaio e culto) — o aquecimento inteiro, sempre nesta ordem:**
+1. Corpo: postura, pescoço, ombros, costelas com os braços (2 min).
+2. Ar: "S", "Z", "Sh" longos, 2 de cada; 8 staccatos em "s" e 8 em "ma" (2 min).
+3. "Brrr": 3 notas longas + 5 sirenes (2 min).
+4. "Mmm" em 5 notas; "mmm → mmmá" em 3 (1 min).
+5. Espaço: 3 bocejos com "aaah", 3 sopros "sapão" com voz, 3 "espaguetes" com "aaah" (2 min).
+6. Uma frase de hino: "brrr" → "mmm" → letra (1 min).
+7. Para se ouvir: um dia da semana, gravar a frase do hino antes e depois do aquecimento; ouvir no dia seguinte e comparar.
 
-**Sinal de que passou:** lip trill (ou canudo) constante por 8 s; sirene de grave a agudo sem parar o som; cada aluno sabe suas notas confortáveis.
+**Versão curta (7 min)**, para as semanas em que a tarefa da aula tem exercícios próprios: corpo 1 · ar 1 · "brrr" 2 · "mmm" 1 · espaço 1 · frase de hino 1.
+
+**Desaquecimento (depois do culto):** 5 sirenes de "brrr" descendo, bem leves, e água.
+
+**Sinal de que passou:** o aluno faz o aquecimento inteiro sozinho, na ordem, em ~10 min; "brrr" constante por 8 s e sirene sem parar o som; sente o céu da boca subir no bocejo e o gogó descer no "espaguete".
 
 ---
 
@@ -231,10 +249,10 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **No hino (3 min):** *Tal Qual Estou*, primeira frase: tocar a primeira nota, silêncio de 3 s, cantar a frase em "u" em unísono, depois com a letra. Conferir a **última nota** da frase no afinador (é onde iniciante mais desafina, por falta de ar).
 
-**Tarefa da semana (12 min/dia):** rotina base da aula 3 (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - 10 notas soltas com afinador: ouvir, imaginar, cantar, conferir (3 min).
 - "1–2–3–2–1" em 3 tons diferentes (2 min).
-- Gravar no dia 5: 5 notas com o afinador na tela (filmar a tela ajuda).
+- Para se ouvir: gravar 5 notas com o afinador na tela (filmar a tela ajuda).
 
 **Sinal de que passou:** acerta 4 de 5 notas soltas no afinador (agulha perto do centro) e percebe **sozinho** quando errou.
 
@@ -265,11 +283,11 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **No hino (3 min):** um hino da coletânea que comece no "1" e ande por graus vizinhos (o professor confere no teclado antes da aula). O professor canta a primeira frase com números; o grupo repete com números; depois com a letra. Descobrir juntos qual é o "1" do hino (dica: quase sempre é a **última nota** do hino).
 
-**Tarefa da semana (12 min/dia):** rotina base (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - Escala com números, subindo e descendo, em 2 tons, com e sem referência (2 min).
 - "1–3–5–8–5–3–1" em 3 tons (1 min).
 - Ouvir a gravação de um hino da coletânea e achar o "1" cantarolando; tentar cantar a primeira frase com números (2 min).
-- Gravar no dia 5: a escala sem referência e a frase com números.
+- Para se ouvir: gravar a escala sem referência e a frase com números.
 
 **Sinal de que passou:** canta a escala e "1–3–5–8" afinado sem referência; acerta "subiu/desceu" 8 de 10 vezes.
 
@@ -304,10 +322,10 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **No hino (3 min):** *Quão Grande És Tu*, refrão ("Então minh'alma canta a ti, Senhor…"), que pede exatamente essa voz "que chama". Em "mó-mó-mó" primeiro, depois com a letra, com a intenção de chegar ao fundo da sala em volume médio.
 
-**Tarefa da semana (12 min/dia):** rotina base (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - "mmmá / ma-me-mi-mo-mu" em 5 notas (2 min).
 - "ó" no bocejo pela metade, 5 notas (1 min).
-- Refrão do hino "chamando" o fundo do quarto (2 min). Gravar no dia 5 de **longe** (celular a 3 m) e ouvir se o texto chega.
+- Refrão do hino "chamando" o fundo do quarto (2 min). Para se ouvir: gravar de **longe** (celular a 3 m) e ouvir se o texto chega.
 
 **Sinal de que passou:** a vogal mantém a vibração do "m"; a voz chega ao fundo da sala em volume médio com o pescoço solto (o professor coloca a mão de leve no pescoço do aluno e não sente endurecer).
 
@@ -342,10 +360,10 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
 
 **No hino (3 min):** um hino de **texto denso** (muitas sílabas por nota — *Castelo Forte* serve). Um aluno canta uma frase; outro, a 5 m e sem olhar a letra, repete o que entendeu. Corrigir apenas o que não chegou.
 
-**Tarefa da semana (12 min/dia):** rotina base (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - "a-e-i-o-u" em 3 notas, filmando a boca (2 min).
 - Uma estrofe de hino: falada com consoantes exageradas, falada esticando vogais, cantada (3 min).
-- Gravar no dia 5 a estrofe cantada a 3 m do celular. Ouvir e anotar as palavras que não se entendem.
+- Para se ouvir: gravar a estrofe cantada a 3 m do celular. Ouvir e anotar as palavras que não se entendem.
 
 **Sinal de que passou:** alguém a 5 m entende uma estrofe inteira sem ler; as cinco vogais mantêm a mesma vibração e o mesmo volume.
 
@@ -373,15 +391,15 @@ O básico está detalhado aula a aula. O intermediário tem objetivo, pré-requi
    - *Erro comum:* segurar a voz de peito na subida (volume cresce, pescoço endurece, e quebra com tranco). Aliviar antes da passagem.
 
 3. **Extensão × zona confortável** *(3 min)*
-   - Com o teclado, achar de cada aluno: a nota mais grave que sai (leve), a mais aguda que sai (leve, em "u"), e a faixa onde é **confortável** cantar uma frase inteira. Anotar as três. Comparar com a aula 3: a zona confortável já cresceu?
+   - Com o teclado, achar de cada aluno: a nota mais grave que sai (leve), a mais aguda que sai (leve, em "u"), e a faixa onde é **confortável** cantar uma frase inteira. Anotar as três — é a primeira medição; será refeita a cada 4 semanas.
    - Explicar em uma frase: **extensão** é tudo que sai; **tessitura** é onde a voz mora bem. Hino se escolhe pela tessitura, não pela extensão.
 
 **No hino (3 min):** um hino com **salto para o agudo** na frase (*Quão Grande És Tu*, refrão, ou *Rude Cruz*). Cantar a frase em sirene de lip trill seguindo a melodia, depois em "u", depois com a letra — chegando ao agudo leve, sem empurrar.
 
-**Tarefa da semana (12 min/dia):** rotina base (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - 6 sirenes descendentes + 6 completas em lip trill, volume constante (3 min).
 - A frase com salto em "u" e depois com letra, 3 vezes (2 min).
-- Gravar no dia 5: uma sirene completa e a frase com letra.
+- Para se ouvir: gravar uma sirene completa e a frase com letra.
 
 **Sinal de que passou:** sirene de uma oitava em lip trill sem parar o som (quebra pode aparecer, mas o ar não para e o volume não cresce); o aluno sabe dizer em qual nota a voz dele "troca de marcha".
 
@@ -426,10 +444,10 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 **No hino (3 min):** cantar a estrofe inteira, com a partitura na mão, batendo o pulso no pé. Quem se perder volta a olhar as figuras.
 
-**Tarefa da semana (12 min/dia):** rotina base (7 min) +
+**Tarefa da semana (12 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - Metrônomo a 60: ler os 4 compassos de figuras do quadro (foto no celular), palma + "tá" (2 min).
 - Uma estrofe do hino: palma + "tá", depois letra falada no ritmo (3 min).
-- Gravar no dia 5 a estrofe falada no ritmo com o metrônomo audível.
+- Para se ouvir: gravar a estrofe falada no ritmo com o metrônomo audível.
 
 **Sinal de que passou:** lê 4 compassos com as quatro figuras sem errar duração, com metrônomo a 60; fala a letra da estrofe no ritmo certo olhando a partitura.
 
@@ -462,10 +480,10 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 **No hino (3 min):** frase seguinte do mesmo hino, ainda não trabalhada: ler o desenho, escrever os números, cantar. Ver quanto tempo leva — é a medida de progresso das próximas semanas.
 
-**Tarefa da semana (13 min/dia):** rotina base (7 min) +
+**Tarefa da semana (13 min/dia):** aquecimento da aula 3, versão curta (7 min) +
 - Nomear 10 notas na pauta com a tabela ao lado (1 min).
 - Traduzir uma frase nova do hino em números e cantar: com teclado, sem, com letra (4 min).
-- Gravar no dia 5 a frase cantada com números sem referência.
+- Para se ouvir: gravar a frase cantada com números sem referência.
 
 **Sinal de que passou:** canta a primeira frase de um hino conhecido com números só olhando a partitura, sem referência, e nomeia as notas da pauta com a tabela em menos de 3 s cada.
 
@@ -473,7 +491,7 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 ### Aula 11 — Aquecimento, desaquecimento e saúde vocal
 
-**Objetivo:** ter uma rotina fixa de 8 minutos para antes do ensaio e do culto, um desaquecimento de 2 minutos para depois, e saber os cuidados básicos e os sinais de alerta.
+**Objetivo:** ampliar o aquecimento da aula 3 com os exercícios das aulas 4–8 numa rotina fixa para antes do ensaio e do culto, fixar o desaquecimento de 2 minutos para depois, e saber os cuidados básicos e os sinais de alerta.
 
 **Uma ideia (3 min):** a voz é músculo e mucosa. Músculo se aquece antes de trabalhar e se alonga depois; mucosa precisa de água e descanso. Quem canta no culto sem aquecer canta os primeiros 10 minutos "frio" — e é aí que força. *Imagem:* ninguém corre 100 m sem aquecer; cantar uma hora de louvor é uma corrida.
 
@@ -483,9 +501,9 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 | min | Exercício (aula de origem) |
 |---|---|
-| 0:00 | Postura + 5 respirações com mão nas costelas (aula 1) |
+| 0:00 | Corpo: postura, pescoço, ombros, costelas com os braços (aula 3) |
 | 1:00 | "S" 15 s, "Z" 15 s (aulas 1–2) |
-| 1:45 | Lip trill ou canudo: 3 notas longas + 5 sirenes (aulas 3, 8) |
+| 1:45 | "Brrr": 3 notas longas + 5 sirenes; bocejo, "sapão" e "espaguete", 2 de cada (aulas 3, 8) |
 | 3:30 | "Mmm → má", "ma-me-mi-mo-mu" em 5 notas (aula 6) |
 | 5:00 | "1–3–5–8–5–3–1" em 3 tons, subindo meio tom (aula 5) |
 | 6:15 | "a-e-i-o-u" numa nota, no meio da zona confortável (aula 7) |
@@ -503,7 +521,7 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 **No hino (2 min):** depois do aquecimento, cantar uma estrofe do hino do dia e comparar com a sensação de "cantar frio" no início do curso.
 
-**Tarefa da semana:** o aquecimento de 8 minutos **substitui** a rotina base a partir de agora. Fazer todo dia, e antes de qualquer ensaio ou culto. Desaquecer depois. Gravar no dia 5 só a frase final do aquecimento.
+**Tarefa da semana:** este aquecimento **substitui** o da aula 3 a partir de agora. Fazer todo dia, e antes de qualquer ensaio ou culto. Desaquecer depois.
 
 **Sinal de que passou:** o aluno faz o aquecimento sozinho, sem olhar a tabela, em ~8 minutos; sabe dizer os 3 hábitos que mais machucam a voz.
 
@@ -528,7 +546,7 @@ Um pontinho depois da figura aumenta a metade (mínima pontuada = 3 pulsos). Pau
 
 **No hino (3 min): o grupo canta a estrofe e o refrão inteiros**, em unísono, com as respirações combinadas, em volume médio, o professor só dando a nota inicial. Gravar. Ouvir juntos e listar: uma coisa que ficou boa, uma para a próxima semana.
 
-**Tarefa da semana:** aquecimento de 8 minutos + estudar **um hino novo** sozinho, pelo método, 5 minutos por dia, uma camada por dia (seg: texto e ritmo; ter: melodia; qua: letra; qui: respirações; sex: intenção e gravar inteiro). Trazer a gravação.
+**Tarefa da semana:** aquecimento de 8 minutos + estudar **um hino novo** sozinho, pelo método, 5 minutos por dia, uma camada por dia (seg: texto e ritmo; ter: melodia; qua: letra; qui: respirações; sex: intenção e gravar inteiro). Ouvir a própria gravação antes da aula.
 
 **Sinal de que passou (e de que o básico está concluído):** o grupo canta um hino novo inteiro, afinado, com fôlego até o fim das frases, texto entendido de longe, ninguém forçando a garganta — e cada aluno consegue estudar um hino sozinho com o método.
 
@@ -636,9 +654,9 @@ Só objetivo e o que desbloqueia. Cada uma vira roteiro quando o intermediário 
 ## 5. O que fica com o aluno ao longo do curso
 
 **Caderno de treino** (um por aluno, físico ou no celular), com:
-- as notas confortáveis (aulas 3 e 8), atualizadas a cada 4 semanas — é onde o progresso aparece;
+- as notas confortáveis (aula 8), atualizadas a cada 4 semanas — é onde o progresso aparece;
 - o tempo do "S" e do "Z" de cada semana;
-- a lista de gravações do "dia 5", uma por aula;
-- a rotina de aquecimento de 8 minutos (aula 11), colada na primeira página.
+- as gravações da semana, para o próprio aluno ouvir (ninguém precisa enviá-las);
+- o aquecimento de 10 minutos (aula 3; ampliado na aula 11), colado na primeira página.
 
 **Regra de progressão:** o grupo só avança quando **a maioria** atinge o "sinal de que passou". Repetir uma aula não é atraso: é a semana de prática que estava faltando. Em grupos com ritmos muito diferentes, a tarefa da semana pode ser a da aula anterior para alguns e a da aula atual para outros — o aquecimento é o mesmo para todos.

@@ -6,9 +6,9 @@
 
 | Aula | Tema | Ementa | Página | Revisada pelo professor | Dada em |
 |---|---|---|---|---|---|
-| 01 | Postura e respiração | ✅ | ✅ `aula-01-respiracao.html` | ⬜ | — |
-| 02 | Fluxo de ar e início do som | ✅ | ✅ `aula-02-fluxo-de-ar.html` (refeita em 2026-09-13; a versão antiga está no primeiro commit) | ⬜ | — |
-| 03 | Vibração de lábios, canudo e "M" | ✅ | ✅ `aula-03-aquecimento.html` | ⬜ | 2026-09-13 (previsto) |
+| 01 | Postura e respiração | ✅ | ✅ `aula-01-respiracao.html` | ✅ (mão no peito/barriga em vez de deitado) | — |
+| 02 | Fluxo de ar e início do som | ✅ | ✅ `aula-02-fluxo-de-ar.html` (refeita em 2026-09-13; a versão antiga está no primeiro commit) | ✅ ("hhhaaa" × "mmmm") | — |
+| 03 | Aquecimento completo | ✅ | ✅ `aula-03-aquecimento.html` (reorganizada em 2026-09-13 a partir dos exercícios do professor) | ✅ | 2026-09-13 |
 | 04 | Afinação I | ✅ | ⬜ | | |
 | 05 | Ouvido I | ✅ | ⬜ | | |
 | 06 | Ressonância e projeção I | ✅ | ⬜ | | |
@@ -38,15 +38,18 @@
 - **Imagens**: só domínio público (Gray's Anatomy, 1918, via Wikimedia Commons), com crédito em cada página. Nenhuma gerada por IA. Os rótulos vêm em inglês; a legenda em português explica o que olhar.
 - **Uma aula = um HTML sem build.** Copiar a última aula é o jeito de criar a próxima (ver README).
 - **Aula 2 refeita**: a versão original misturava falsete (mecanismo), soproso/firme (modo de fonação) e claro/escuro (timbre) numa régua só e citava belting. Na versão nova, só soproso × equilibrado × tenso e o início do som. Falsete vai para a aula 8; timbre e belting para o intermediário/avançado (ver seção 0 da ementa).
+- **Gravações são para auto-análise.** Os alunos não enviam gravações ao professor. As páginas sugerem, de forma discreta ("Para se ouvir"), o que vale gravar e o que ouvir no dia seguinte.
+- **Aula 3 = aquecimento completo em 4 blocos** (corpo → ar → voz → espaço), a partir da lista de exercícios do professor: alongamento (postura, pescoço, ombros, costelas com os braços), "S/Z/Sh" e staccato, "brrr" e "mmm", bocejo (palato mole), sopro "sapão" (espaço na boca) e "espaguete" (laringe). Canudo virou só alternativa ao "brrr"; "região confortável" saiu da aula 3 e fica para a aula 8. O aquecimento da aula 11 passa a ser a ampliação deste.
+- **Aula 2 usa duas alavancas**: "hhhaaa" abre (soproso), "mmmm" firma — descoberta do professor em aula. O bloco central é alternar as duas e abrir "mmm → mmmá".
 - **Hinos de exemplo** são tradicionais (Castelo Forte, Tal Qual Estou, Mais Perto Quero Estar). Cada página diz "se o hino da coletânea for outro, use…" — trocar quando a coletânea for definida.
 
 ## Próximos passos
 
-1. Dar a aula 3; anotar aqui o que funcionou e o que precisa mudar (tempo de cada bloco, dificuldade com lip trill, canudo).
-2. Revisar as aulas 1 e 2 com a experiência da aula 3.
-3. Escrever a aula 4 (Afinação I) — precisa de teclado/app de piano e afinador em cada celular.
-4. Definir os hinos da coletânea que substituem os exemplos.
+1. Conferir a descrição do sopro "sapão" e do "espaguete" na aula 3 — foram escritas a partir do nome do exercício; ajustar se o professor faz diferente.
+2. Escrever a aula 4 (Afinação I) — precisa de teclado/app de piano e afinador em cada celular.
+3. Definir os hinos da coletânea que substituem os exemplos.
 
 ## Diário
 
 - **2026-09-13** — Ementa completa escrita (básico detalhado, intermediário e avançado mapeados). Repositório criado. Páginas das aulas 1, 2 (refeita) e 3. Estilo e JS compartilhados.
+- **2026-09-13 (revisão do professor)** — Gravação passa a ser auto-análise, sem envio. Aula 1: "deitado com livro" trocado por "mão no peito, mão na barriga" (o que foi dado em aula). Aula 2: bloco central refeito em torno de "hhhaaa" (soproso) × "mmmm" (firme). Aula 3: reorganizada como aquecimento completo em 4 blocos de 3 min, com os exercícios passados pelo professor. Ementa e aula 11 alinhadas.

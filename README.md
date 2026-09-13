@@ -12,7 +12,7 @@ Aulas de canto de 20 minutos (teoria rápida + muita prática) para um grupo peq
 index.html                 índice das aulas
 aula-01-respiracao.html    Aula 1 — Postura e respiração
 aula-02-fluxo-de-ar.html   Aula 2 — Fluxo de ar e início do som
-aula-03-aquecimento.html   Aula 3 — Vibração de lábios, canudo e "M"
+aula-03-aquecimento.html   Aula 3 — Aquecimento completo: corpo, ar, voz e espaço
 assets/style.css           estilo compartilhado (mobile-first, tema claro/escuro)
 assets/app.js              cronômetros dos blocos + checklists salvos no aparelho
 assets/img/                ilustrações de domínio público (Gray's Anatomy, 1918)
