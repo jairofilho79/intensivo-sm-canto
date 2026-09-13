@@ -1,0 +1,158 @@
+/* Intensivo SM — estilo compartilhado das aulas
+   Mobile-first. Funciona sem JS; o JS só adiciona timer e checklists. */
+
+:root{
+  --paper:#EEF1EE; --surface:#FFFFFF; --surface-2:#F4F7F4;
+  --ink:#131C1A; --ink-2:#465350; --ink-3:#6F7B78;
+  --rule:#D5DBD6; --accent:#2E6E84; --accent-ink:#FFFFFF;
+  --good:#3E7D5A; --warn:#A3491F; --warn-bg:#FBEFE7; --gold:#9A6A14;
+  --shadow:0 1px 2px rgba(19,28,26,.05), 0 6px 20px -12px rgba(19,28,26,.22);
+  --maxw:760px; --radius:14px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F1513; --surface:#161D1B; --surface-2:#1C2523;
+    --ink:#E7ECE8; --ink-2:#A9B4B0; --ink-3:#7E8986;
+    --rule:#2A3431; --accent:#7CC0D6; --accent-ink:#0F1513;
+    --good:#8DC9A6; --warn:#E8956B; --warn-bg:#2A1E17; --gold:#E0B25C;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F1513; --surface:#161D1B; --surface-2:#1C2523;
+  --ink:#E7ECE8; --ink-2:#A9B4B0; --ink-3:#7E8986;
+  --rule:#2A3431; --accent:#7CC0D6; --accent-ink:#0F1513;
+  --good:#8DC9A6; --warn:#E8956B; --warn-bg:#2A1E17; --gold:#E0B25C;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 8px 24px -14px rgba(0,0,0,.7);
+  color-scheme:dark;
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%; text-size-adjust:100%}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:17px; line-height:1.6; -webkit-font-smoothing:antialiased;
+  padding-left:env(safe-area-inset-left); padding-right:env(safe-area-inset-right);
+  -webkit-tap-highlight-color:transparent;
+}
+h1,h2,h3,h4{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;font-weight:700;margin:0;line-height:1.15;text-wrap:balance}
+p{margin:0}
+p+p{margin-top:.7em}
+a{color:var(--accent)}
+img{max-width:100%;height:auto;display:block}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+.mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}
+.eyebrow{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* barra fixa */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:52px}
+.topbar .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.topbar nav{display:flex;gap:4px}
+.topbar a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0 10px;border-radius:10px;text-decoration:none;color:var(--ink-2);font-size:14px;font-weight:600}
+.topbar a:hover{background:var(--surface-2)}
+.topbar a[aria-disabled="true"]{opacity:.35;pointer-events:none}
+
+/* abertura */
+.hero{padding:40px 0 10px}
+.hero h1{font-size:clamp(30px,7vw,46px);letter-spacing:-.015em;margin-top:12px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.thesis{margin-top:18px;font-size:clamp(17px,2.4vw,20px);line-height:1.5;color:var(--ink-2);border-left:3px solid var(--gold);padding-left:16px}
+.thesis strong{color:var(--ink)}
+
+/* seções */
+section{margin-top:40px}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:14px}
+.sec-head h2{font-size:clamp(23px,5vw,30px)}
+.sec-head .eyebrow{white-space:nowrap}
+
+/* cartões */
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 18px}
+.card+.card{margin-top:14px}
+.card h3{font-size:21px}
+.card .lede{margin-top:8px;color:var(--ink-2)}
+figure{margin:0}
+.fig img{border-radius:10px;background:#fff;margin:0 auto}
+.fig figcaption{margin-top:12px;padding-top:10px;border-top:1px solid var(--rule);font-size:14px;line-height:1.5;color:var(--ink-2)}
+.fig .credit{display:block;margin-top:6px;font-size:12px;color:var(--ink-3)}
+.idea{margin-top:16px}
+.idea .image{margin-top:14px;padding:12px;border-radius:10px;background:var(--surface-2);border:1px dashed var(--rule);font-size:15.5px;color:var(--ink-2)}
+.idea .image b{color:var(--ink)}
+
+/* bloco de exercício */
+.block{position:relative}
+.block-top{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.chip{display:inline-flex;align-items:center;gap:8px;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:13px;color:var(--ink-3);letter-spacing:.04em}
+.chip b{color:var(--ink);font-weight:600}
+.steps{margin:14px 0 0;padding:0;list-style:none;counter-reset:s;display:grid;gap:10px}
+.steps li{counter-increment:s;position:relative;padding-left:34px;line-height:1.5}
+.steps li::before{content:counter(s);position:absolute;left:0;top:2px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--accent-ink);font-family:ui-monospace,Menlo,monospace;font-size:13px;font-weight:600;display:grid;place-items:center}
+.fields{display:grid;gap:10px;margin-top:16px}
+@media (min-width:640px){.fields{grid-template-columns:1fr 1fr}.fields .span{grid-column:1/-1}}
+.field{background:var(--surface-2);border:1px solid var(--rule);border-radius:10px;padding:13px 14px;font-size:15.5px;color:var(--ink-2)}
+.field h4{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-weight:600;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:7px}
+.field.feel h4{color:var(--good)}
+.field.warn{background:var(--warn-bg);border-color:transparent}
+.field.warn h4{color:var(--warn)}
+.field strong{color:var(--ink)}
+
+/* timer */
+.timer{display:inline-flex;align-items:center;gap:6px}
+.timer button{min-height:44px;min-width:44px;padding:0 14px;border-radius:999px;border:1px solid var(--rule);background:var(--surface);cursor:pointer;font-weight:600;font-size:15px;display:inline-flex;align-items:center;gap:8px;touch-action:manipulation}
+.timer button.primary{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.timer output{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;font-size:15px;min-width:4ch;text-align:center}
+.timer.running button.primary{background:var(--warn)}
+.timer.done output{color:var(--good);font-weight:700}
+.timer .reset{padding:0 10px}
+
+/* tabela de rotina */
+.routine{width:100%;border-collapse:collapse;margin-top:12px;font-size:15.5px}
+.routine th,.routine td{text-align:left;padding:10px 8px;border-top:1px solid var(--rule);vertical-align:top}
+.routine th{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);font-weight:600;border-top:none}
+.routine td.min{font-family:ui-monospace,Menlo,monospace;white-space:nowrap;color:var(--ink-3)}
+.routine td strong{color:var(--ink)}
+
+/* checklist de dias */
+.days{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:14px}
+.days label{display:flex;flex-direction:column;align-items:center;gap:6px;padding:10px 4px;border:1px solid var(--rule);border-radius:10px;background:var(--surface-2);cursor:pointer;font-size:13px;color:var(--ink-2);min-height:64px;justify-content:center;user-select:none}
+.days input{width:22px;height:22px;margin:0;accent-color:var(--accent)}
+.days label:has(input:checked){background:var(--surface);border-color:var(--good);color:var(--ink)}
+.days label:has(input:checked) span{font-weight:700}
+.record{margin-top:14px;padding:13px 14px;border-radius:10px;background:var(--surface-2);border:1px solid var(--rule);font-size:15.5px;color:var(--ink-2);display:flex;gap:10px;align-items:flex-start}
+.record strong{color:var(--ink)}
+
+/* passou? */
+.checks{margin:12px 0 0;padding:0;list-style:none;display:grid;gap:8px}
+.checks label{display:flex;gap:12px;align-items:flex-start;padding:12px 12px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);cursor:pointer;line-height:1.45}
+.checks input{width:22px;height:22px;flex:none;margin-top:2px;accent-color:var(--good)}
+.checks label:has(input:checked){border-color:var(--good)}
+
+/* avisos */
+.rule{margin-top:20px;padding:14px 16px;border-radius:10px;background:var(--warn-bg);color:var(--ink-2);font-size:15.5px;border-left:3px solid var(--warn)}
+.rule strong{color:var(--warn)}
+.next{margin-top:16px;padding:14px 16px;border-radius:10px;background:var(--surface-2);border:1px dashed var(--rule);font-size:15.5px;color:var(--ink-2)}
+
+/* rodapé */
+footer{margin-top:56px;padding:22px 0 calc(40px + env(safe-area-inset-bottom));color:var(--ink-3);font-size:13.5px;line-height:1.6}
+footer .wrap{border-top:1px solid var(--rule);padding-top:18px}
+.footnav{display:flex;justify-content:space-between;gap:10px;margin-bottom:16px}
+.footnav a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border-radius:10px;border:1px solid var(--rule);background:var(--surface);text-decoration:none;color:var(--ink);font-weight:600;font-size:15px}
+.footnav a[aria-disabled="true"]{opacity:.35;pointer-events:none}
+
+/* índice */
+.lessons{margin:20px 0 0;padding:0;list-style:none;display:grid;gap:10px}
+.lessons a{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:14px 14px;border:1px solid var(--rule);border-radius:12px;background:var(--surface);text-decoration:none;color:var(--ink);box-shadow:var(--shadow)}
+.lessons .num{font-family:ui-monospace,Menlo,monospace;font-size:12px;color:var(--ink-3);letter-spacing:.08em;white-space:nowrap}
+.lessons .t{font-weight:700;font-size:17px}
+.lessons .s{display:block;font-weight:400;font-size:14px;color:var(--ink-2);margin-top:2px}
+.lessons .soon{opacity:.55;pointer-events:none}
+.lessons .tag{font-size:12px;color:var(--ink-3);white-space:nowrap}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{.topbar,.timer,.footnav{display:none}.card{box-shadow:none;break-inside:avoid}}
