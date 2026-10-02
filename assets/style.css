@@ -1,6 +1,22 @@
 /* Intensivo SM — estilo compartilhado das aulas
    Mobile-first. Funciona sem JS; o JS só adiciona timer e checklists. */
 
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url('fonts/amsterdam-four-ttf.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Amsterdam Four';
+  src: url('fonts/amsterdam-four-ttf.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root{
   --paper:#EEF1EE; --surface:#FFFFFF; --surface-2:#F4F7F4;
   --ink:#131C1A; --ink-2:#465350; --ink-3:#6F7B78;
@@ -153,6 +169,19 @@ footer .wrap{border-top:1px solid var(--rule);padding-top:18px}
 .lessons .s{display:block;font-weight:400;font-size:14px;color:var(--ink-2);margin-top:2px}
 .lessons .soon{opacity:.55;pointer-events:none}
 .lessons .tag{font-size:12px;color:var(--ink-3);white-space:nowrap}
+.brand-title-script{
+  font-family:'Amsterdam Four','Alex Brush',cursive;
+  font-size:27px;
+  font-weight:normal;
+  display:block;
+  line-height:1.2;
+  letter-spacing:.02em;
+  color:var(--ink);
+  padding:4px 0 6px;
+}
+.brand-title-script + .s{
+  margin-top:6px;
+}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 @media print{.topbar,.timer,.footnav{display:none}.card{box-shadow:none;break-inside:avoid}}

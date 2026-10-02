@@ -24,6 +24,7 @@ aula-11-saude-vocal.html        Aula 11 — Aquecimento, desaquecimento e saúde
 aula-12-louvor-do-zero.html     Aula 12 — Estudar um louvor do zero e cantar em grupo
 assets/style.css           estilo compartilhado (mobile-first, tema claro/escuro)
 assets/app.js              cronômetros dos blocos + checklists salvos no aparelho
+assets/fonts/              fonte oficial Amsterdam Four (Pra Teu Louvor)
 assets/img/                ilustrações de domínio público (Gray's Anatomy, 1918)
 apostila/pra-teu-louvor.pdf  apostila Pra Teu Louvor (PDF comprimido, 144 págs)
 ementa-intensivo.md        ementa detalhada
