@@ -22,12 +22,14 @@ aula-09-leitura-ritmo.html      Aula 9 — Leitura I: o ritmo
 aula-10-leitura-melodia.html    Aula 10 — Leitura II: a melodia
 aula-11-saude-vocal.html        Aula 11 — Aquecimento, desaquecimento e saúde vocal
 aula-12-louvor-do-zero.html     Aula 12 — Estudar um louvor do zero e cantar em grupo
+favicon.ico                favicon multi-resolução do site
+favicon.png                favicon 32x32 PNG
 assets/style.css           estilo compartilhado (mobile-first, tema claro/escuro)
 assets/app.js              cronômetros dos blocos + checklists salvos no aparelho
 assets/fonts/              fonte oficial Amsterdam Four (Pra Teu Louvor)
-assets/img/                ilustrações de domínio público (Gray's Anatomy, 1918)
+assets/img/                ilustrações anatômicas, favicons e logo ICM Santa Mônica
 amsterdam-four-ttf-maisfontes.4c67.zip  arquivo da fonte oficial Amsterdam Four
-logo.jpeg                  logo do Intensivo de Canto Coral ICM Santa Mônica
+logo.jpeg                  logo original do Intensivo de Canto Coral ICM Santa Mônica
 apostila/pra-teu-louvor.pdf  apostila Pra Teu Louvor (PDF comprimido, 144 págs)
 ementa-intensivo.md        ementa detalhada
 PROGRESSO.md               o que está pronto, o que falta, decisões

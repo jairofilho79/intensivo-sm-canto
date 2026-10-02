@@ -28,8 +28,8 @@
 - [x] Cronômetro por bloco (bipe + vibração no fim; mantém a tela acesa quando o navegador permite) e checklists salvos no aparelho (`assets/app.js`)
 - [x] Índice (`index.html`)
 - [x] Repositório no GitHub (https://github.com/jairofilho79/intensivo-sm-canto) + GitHub Pages (https://jairofilho79.github.io/intensivo-sm-canto/)
+- [x] Favicons multi-resolução (.ico, PNGs 16x16, 32x32, 180x180 apple-touch-icon, 192x192) em todas as páginas
 - [ ] Testar em um iPhone e um Android reais (foi testado em emulação de largura no desktop)
-- [ ] Ícone/favicon e manifest para "adicionar à tela inicial" (opcional)
 
 ## Decisões tomadas
 
