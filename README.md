@@ -27,6 +27,7 @@ assets/app.js              cronômetros dos blocos + checklists salvos no aparel
 assets/fonts/              fonte oficial Amsterdam Four (Pra Teu Louvor)
 assets/img/                ilustrações de domínio público (Gray's Anatomy, 1918)
 amsterdam-four-ttf-maisfontes.4c67.zip  arquivo da fonte oficial Amsterdam Four
+logo.jpeg                  logo do Intensivo de Canto Coral ICM Santa Mônica
 apostila/pra-teu-louvor.pdf  apostila Pra Teu Louvor (PDF comprimido, 144 págs)
 ementa-intensivo.md        ementa detalhada
 PROGRESSO.md               o que está pronto, o que falta, decisões

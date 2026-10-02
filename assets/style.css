@@ -68,9 +68,15 @@ button{font:inherit;color:inherit}
 
 /* barra fixa */
 .topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--rule);padding-top:env(safe-area-inset-top)}
-.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:52px}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:56px;container-type:inline-size}
+.topbar .brand{display:inline-flex;align-items:center;gap:10px;min-width:0;text-decoration:none;color:inherit}
+.topbar-logo{width:34px;height:34px;object-fit:contain;flex-shrink:0;filter:drop-shadow(0 2px 4px rgba(0,0,0,.35))}
 .topbar .eyebrow{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
-.topbar nav{display:flex;gap:4px}
+.brand-text-full{display:inline}
+.brand-text-short{display:none}
+@container (max-width:680px){.brand-text-full{display:none}.brand-text-short{display:inline}}
+@media (max-width:680px){.brand-text-full{display:none}.brand-text-short{display:inline}}
+.topbar nav{display:flex;gap:4px;flex-shrink:0}
 .topbar a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:0 10px;border-radius:10px;text-decoration:none;color:var(--ink-2);font-size:14px;font-weight:600}
 .topbar a:hover{background:var(--surface-2)}
 .topbar a[aria-disabled="true"]{opacity:.35;pointer-events:none}
